@@ -1,13 +1,13 @@
 #ifndef CONFIG_USER_H
 #define CONFIG_USER_H
 
-/* Set USB device descriptor parameters. */
+/* Set up USB device descriptor parameters. */
 #undef MANUFACTURER
 #define MANUFACTURER "QMK Firmware"
 #undef PRODUCT
 #define PRODUCT "GH60 RevCHN"
 
-/* Set grave escape overrides. */
+/* Set up grave escape overrides. */
 #ifndef GRAVE_ESC_ALT_OVERRIDE
 #define GRAVE_ESC_ALT_OVERRIDE
 #endif /* GRAVE_ESC_ALT_OVERRIDE */
